@@ -1,0 +1,31 @@
+form {
+  width: 370px;
+  margin: 50px auto;
+  font-size: 1.1em;
+}
+
+input, label {
+  margin: 5px 0;
+  font-size: 1em;
+  padding-left: 5px;
+}
+
+#calculate {
+  width: 70px;
+  margin-left: 63px;
+}
+
+input,label{
+  margin:5px 0;
+  padding-left:5px;
+  font-size:1em;
+}
+
+input:valid+span:after{
+  content:'ok';
+  color:green;
+}
+input:invalid+span:after{
+  content:'x';
+  color:red;
+}
