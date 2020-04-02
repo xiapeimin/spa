@@ -4,6 +4,11 @@ $(function() {
       $btnCal = $('#calculate'),
       $perimeter = $('#perimeter'),
       $area = $('#area');
+  
+  function i(e, t) {
+    return Math.round(e * Math.pow(10, t)) / Math.pow(10, t);
+  }
+ 
 
   $btnCal.click(function(){
     // validate if error return;
@@ -13,8 +18,8 @@ $(function() {
     var w = Number($width.val()),
         h = Number($height.val());
 
-    var p = 2 * (w + h),
-        a = w * h;
+    var p = i(2 * (w + h),2),
+        a = i(w * h,2);
 
     $perimeter.val(p);
     $area.val(a);
