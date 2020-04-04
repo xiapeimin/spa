@@ -18,15 +18,15 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiapeimin/spa.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "xiapeimin",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiapeimin/spa/issues"
   },
